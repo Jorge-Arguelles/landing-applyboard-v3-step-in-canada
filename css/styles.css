@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* ==============================================================
+/*	GENERAL
+/* ============================================================== */
+	.muli {
+		font-family: 'Muli';
+	}
+
+	.ls-2px {
+		letter-spacing: 2px;
+	}
+
+	.fs-12 {
+		font-size: 12px;
+	}
+	.fs-15 {
+		font-size: 15px;
+	}
+	.fs-18 {
+		font-size: 18px;
+	}
+	.fs-20 {
+		font-size: 20px;
+	}
+
+	.lh-22 {
+		line-height: 22px;
+	}
+	.lh-28 {
+		line-height: 28px;
+	}
+	.lh-35 {
+		line-height: 35px;
+	}
+	.lh-1em {
+		line-height: 1em;
+	}
+
+	.fw-400 {
+		font-weight: 400;
+	}
+	.fw-500 {
+		font-weight: 500;
+	}
+	.fw-600 {
+		font-weight: 600;
+	}
+	.fw-700 {
+		font-weight: 700;
+	}
+
+	body {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: normal;
+		color: #292E3E;
+	}
+
+	h1,h2,h3,h4 {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+	}
+	h1,h2 {
+		font-size: 40px;
+	}
+
+	b {
+		font-weight: 600;
+	}
+
+	.blue-1 {
+		color: #1E6DEB;
+	}
+	.blue-2 {
+		color: rgb(11, 80, 191);
+	}
+	.bg-blue-1 {
+		background-color: #1E6DEB;
+	}
+
+	@media only screen and (max-width: 576px) {
+		h1,h2 {
+			font-size: 30px;
+		}
+	}
+/**/
+
+
+/* ==============================================================
+/*	HEADER
+/* ============================================================== */
+	#header {
+		height: 487px;
+		background: url(../images/fondo-header.jpg) no-repeat;
+		background-size: cover;
+		background-position: top right;
+		color: #fff;
+	}
+
+	#header h1 {
+		background-color: rgba(0, 62, 225, 0.51);
+		font-weight: bolder;
+		font-size: 60px;
+		letter-spacing: -5px;
+	}
+
+	.btn-applyborad {
+		background-color: rgba(255,235,16,1);
+		color: #1E6DEB;
+		padding: 0.375rem 2rem;
+		margin-top: 1rem;
+		font-weight: bold;
+	}
+/**/
+
+
+/* ==============================================================
+/*	ESTUDIA
+/* ============================================================== */
+	#estudia {
+		padding: 2rem 0;
+	}
+/**/
+
+
+/* ==============================================================
+/*	ESTUDIA NODOS
+/* ============================================================== */
+	#estudia-nodos {
+		padding: 4rem 0;
+	}
+	.estudia-nodo {
+		font-size: 18px;
+		font-weight: 400;
+		box-sizing: border-box;
+		width: 33%;
+		display: inline-flex;
+		flex-direction: row;
+		align-items: center;
+		padding: 1rem;
+		background-color: #f0f5ff;
+	}
+	.estudia-nodo img {
+		margin-right: 1rem;
+	}
+	
+	@media only screen and (max-width: 992px) {
+		.estudia-nodo {
+			width: 45% !important;
+		}
+	}
+	@media only screen and (max-width: 768px) {
+		.estudia-nodo {
+			width: 70% !important;
+		}
+	}
+	@media only screen and (max-width: 576px) {
+		.estudia-nodo {
+			width: 100% !important;
+		}
+	}
+/**/
+
+
+/* ==============================================================
+/*	AREAS
+/* ============================================================== */
+	#areas {
+		background: linear-gradient(277.93deg, #00368A 6.61%, #1E6DEB 107.22%);
+		color: #fff;
+		padding: 4rem 0;
+	}
+
+	.area-nodo {
+		width: 350px;
+		position: relative;
+		padding: 1rem;
+	}
+	.area-nodo > img {
+		height: 70px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	.area-nodo-imagen {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+	.area-nodo-imagen p {
+		position: absolute;
+		width: 80%;
+		margin: 0;
+		padding: 0 0.5rem;
+		background-color: rgba(0, 62, 225, 0.51);
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 28px;
+	}
+/**/
+
+
+/* ==============================================================
+/*	INSTITUCIONES
+/* ============================================================== */
+	#instituciones {
+		padding: 4rem 0;
+		background-image: url(../images/fondo-instituciones.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.instituciones-nodo {
+		box-sizing: border-box;
+		padding: 1rem;
+	}
+/**/
+
+
+/* ==============================================================
+/*	CONTACTANOS
+/* ============================================================== */
+	#contactanos {
+		background-color: #f8f9fe;
+		padding: 4rem 0;
+	}
+
+	.ff-form-main {
+		max-width: 100% !important;
+	}
+
+	#ffSection0 > div:first-child {
+		display: none;
+	}
+	#dvFastForms .ff-group-row {
+		max-width: 100% !important;
+		margin: 0 !important;
+	}
+	.ff-item-row {
+		padding-top: 0px !important;
+		margin-bottom: 1rem;
+	}
+	.ff-col-1 {
+		text-align: left;
+	}
+	.ff-col-2 {
+		min-width: 60% !important;
+		max-width: 60% !important;
+		width: 60% !important;
+	}
+	.ff-page-header-row {
+		display: none;
+	}
+	#dvFastForms .ff-group-row {
+		margin: 0;
+	}
+	#dvFastForms .ff-footer-group {
+		padding: 1rem 0 0 0 !important;
+	}
+
+	@media only screen and (max-width: 992px) {
+		.ff-col-1 {
+			min-width: 100% !important;
+		}
+
+		.ff-col-2 {
+			min-width: 100% !important;
+			max-width: 100% !important;
+			width: 100% !important;
+		}
+	}
+/**/
+
+
+/* ==============================================================
+/*	ESTUDIANTE
+/* ============================================================== */
+	#estudiante {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		align-items: center;
+		padding: 4rem 0;
+	}
+
+	.estudiante-nodo {
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+		padding: 1.5rem;
+		background: #fff;
+		border: 1px solid #E3E6F2;
+		border-radius: 8px;
+		text-align: center;
+		width: 340px;
+		height: 330px;
+	}
+	.estudiante-nodo img {
+		width: 100px;
+	}
+	.estudiante-nodo p {
+		margin: 0;
+	}
+	.estudiante-titulo {
+		font-weight: 600;
+	}
+	.estudiante-texto {
+		font-size: 14px;
+		font-weight: 400;
+	}
+/**/
+
+
+/* ==============================================================
+/*	SOBRE APPLYBOARD
+/* ============================================================== */
+	#sobre-applyboard {
+		padding: 4rem 0;
+		background: #F7F9FF;
+	}
+/**/
+
+
+/* ==============================================================
+/*	FOOTER
+/* ============================================================== */
+	footer {
+		background: #0247B8;
+		padding-top: 2rem;
+	}
+
+	footer a {
+		color: #fff;
+	}
+	footer a:hover {
+		color: #7ea5e3
+		;
+	}
+
+	#footer-logo {
+		width: 200px;
+	}
+/**/
+
+/* http://unbouncepages.com/estudia-en-canada-per/#lp-pom-block-271 */
+
+ol ::marker {
+	font-weight: 700;
+}
